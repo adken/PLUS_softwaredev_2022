@@ -19,4 +19,7 @@ conda env export > environment.yml
  
 # making the environment available in Jupyternotebook
 python -m ipykernel install --user --name=geoenv
+
+# create environment from yml file
+conda env create --file {envname}.yml
 ```
